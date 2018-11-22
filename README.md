@@ -5,10 +5,10 @@ Small beginner's electronics project with Raspberry Pi Zero
 
 This is a small project I started about mid-way through my first semester as a freshman at the University of Georgia. It is a Raspberry Pi in an Altoids Tin that acts as an emulator for video games through Retropie. In order to have a functioning "gameboy" I needed several components:
 
--A display
--An audio system
--A power management system
--Controls
+- A display
+- An audio system
+- A power management system
+- Controls
 
 ## Display
 For the display, I am using a 1.8" TFT display sold from Adafruit that came with a display driver. It uses SPI to communicate with the Raspberry Pi, so I designed a compact breakout board, referenced from the Adafruit breakout board, that fit my Altoids tin and used an FPC connector.
