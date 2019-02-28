@@ -9304,7 +9304,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.87M"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200K"/>
-<part name="U$1" library="VLCF5020T-6R8N1R1" deviceset="VLCF5020T" device="" value="6.8uH"/>
+<part name="L1" library="VLCF5020T-6R8N1R1" deviceset="VLCF5020T" device="" value="6.8uH"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9341,7 +9341,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="JS102011SAQN" deviceset="JS102011SAQN" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$3" library="M22-6340442" deviceset="M22-6340442" device=""/>
+<part name="H1" library="M22-6340442" deviceset="M22-6340442" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CHARGE" library="KingBright" deviceset="WP934AD" device="" value="YELLOW"/>
 <part name="DONE" library="KingBright" deviceset="WP934AD" device="" value="GREEN"/>
@@ -9435,7 +9435,7 @@ Position B: EN floats and VOUT is enabled</text>
 <attribute name="NAME" x="148.3614" y="34.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="153.162" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="A" x="27.94" y="53.34" smashed="yes">
+<instance part="L1" gate="A" x="27.94" y="53.34" smashed="yes">
 <attribute name="VALUE" x="25.9588" y="49.0728" size="3.4798" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="27.0256" y="56.6928" size="3.4798" layer="95" ratio="10" rot="SR0"/>
 </instance>
@@ -9560,7 +9560,7 @@ Position B: EN floats and VOUT is enabled</text>
 <instance part="GND18" gate="1" x="104.14" y="12.7" smashed="yes">
 <attribute name="VALUE" x="101.6" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="A" x="271.78" y="55.88" smashed="yes"/>
+<instance part="H1" gate="A" x="271.78" y="55.88" smashed="yes"/>
 <instance part="GND19" gate="1" x="271.78" y="35.56" smashed="yes">
 <attribute name="VALUE" x="269.24" y="33.02" size="1.778" layer="96"/>
 </instance>
@@ -9732,7 +9732,7 @@ Position B: EN floats and VOUT is enabled</text>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="U$3" gate="A" pin="P2"/>
+<pinref part="H1" gate="A" pin="P2"/>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9796,7 +9796,7 @@ Position B: EN floats and VOUT is enabled</text>
 <segment>
 <wire x1="261.62" y1="43.18" x2="261.62" y2="50.8" width="0.1524" layer="91"/>
 <label x="261.62" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$3" gate="A" pin="P1"/>
+<pinref part="H1" gate="A" pin="P1"/>
 <wire x1="269.24" y1="45.72" x2="269.24" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="43.18" x2="261.62" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -9813,7 +9813,7 @@ Position B: EN floats and VOUT is enabled</text>
 <label x="137.16" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="A" pin="2"/>
+<pinref part="L1" gate="A" pin="2"/>
 <wire x1="27.94" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
 <label x="22.86" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -9897,7 +9897,7 @@ Position B: EN floats and VOUT is enabled</text>
 <pinref part="VBAT2" gate="1" pin="+5V"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <junction x="48.26" y="53.34"/>
-<pinref part="U$1" gate="A" pin="1"/>
+<pinref part="L1" gate="A" pin="1"/>
 <wire x1="48.26" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
