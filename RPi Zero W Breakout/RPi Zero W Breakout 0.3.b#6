@@ -276,34 +276,6 @@ Source: Data sheet</description>
 </package3d>
 </packages3d>
 </library>
-<library name="SWITCH TACTILE SPST-NO 0.05A 24V">
-<packages>
-<package name="1825910">
-<pad name="P$1" x="0" y="0" drill="1"/>
-<pad name="P$2" x="6.5024" y="0" drill="1"/>
-<pad name="P$3" x="6.5024" y="4.4704" drill="1"/>
-<pad name="P$4" x="0" y="4.4958" drill="1"/>
-<wire x1="0" y1="4.4958" x2="6.5024" y2="4.4958" width="0.127" layer="21"/>
-<wire x1="6.5024" y1="4.4958" x2="6.5024" y2="0" width="0.127" layer="21"/>
-<wire x1="6.5024" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="4.4958" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="1825027-6">
-<packages>
-<package name="1825027-6">
-<pad name="P$1" x="0" y="0" drill="1"/>
-<pad name="P$2" x="4.5" y="0" drill="1"/>
-<pad name="P$3" x="-1.25" y="2.5" drill="1.3"/>
-<pad name="P$4" x="5.75" y="2.5" drill="1.3"/>
-<wire x1="1.75" y1="2.5" x2="2.75" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.5" x2="5.75" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1" y1="2.5" x2="-1.25" y2="2.5" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="4.5" y2="0" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="35RAPC4BHN2">
 <packages>
 <package name="SWITCHCRAFT_35RAPC4BHN2">
@@ -1633,6 +1605,31 @@ Metric Code Size 2012</description>
 </package>
 </packages>
 </library>
+<library name="switches">
+<packages>
+<package name="SPST_TACTILESWITCH_TL3301PF160QG">
+<smd name="P$1" x="-4.55" y="2.25" dx="2.1" dy="1.4" layer="1"/>
+<smd name="P$2" x="4.55" y="2.25" dx="2.1" dy="1.4" layer="1"/>
+<smd name="P$3" x="-4.45" y="-2.25" dx="2.1" dy="1.4" layer="1"/>
+<smd name="P$4" x="4.45" y="-2.25" dx="2.1" dy="1.4" layer="1"/>
+<wire x1="-3" y1="3" x2="-2.25" y2="3" width="0.127" layer="21"/>
+<wire x1="2.25" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3" y1="2.25" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-2.25" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-3" y2="-2.25" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.25" x2="-3" y2="3" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="0" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.25" x2="2.25" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="0" y2="2.25" width="0.127" layer="21"/>
+<wire x1="0" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.25" x2="0" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="0" y1="2.25" x2="0" y2="1.75" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1834,19 +1831,6 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="34M6152" x="19.6" y="68.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="47.7476" y="34.3258" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="B" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="19" y="32" smashed="yes" rot="R90"/>
-<element name="X" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="10.5" y="23.5" smashed="yes" rot="R90"/>
-<element name="RESET" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="19" y="15" smashed="yes" rot="R90"/>
-<element name="A" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="27.5" y="23.5" smashed="yes" rot="R90"/>
-<element name="LEFT" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="67" y="23.5" smashed="yes" rot="R90"/>
-<element name="START" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="75.5" y="32" smashed="yes" rot="R90"/>
-<element name="RIGHT" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="84" y="23.5" smashed="yes" rot="R90"/>
-<element name="UP" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="75.5" y="15" smashed="yes" rot="R90"/>
-<element name="SELECT" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="31.5" y="8" smashed="yes"/>
-<element name="Y" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="41.5" y="8" smashed="yes"/>
-<element name="DOWN" library="SWITCH TACTILE SPST-NO 0.05A 24V" package="1825910" value="SWITCHTACTILESPST-NO0.05A24V" x="52" y="8" smashed="yes"/>
-<element name="L" library="1825027-6" package="1825027-6" value="SWITCHTACTILESPST-NO0.05A24V" x="10" y="50" smashed="yes"/>
-<element name="R" library="1825027-6" package="1825027-6" value="SWITCHTACTILESPST-NO0.05A24V" x="75" y="50" smashed="yes"/>
 <element name="J1" library="35RAPC4BHN2" package="SWITCHCRAFT_35RAPC4BHN2" value="35RAPC4BHN2" x="19" y="6.5" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value=" Conn 3.5MM Stereo Jack F 5 POS Solder RA Thru-Hole 5 Terminal 1 Port " x="32.716" y="21.994" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="SC1459-ND" x="32.716" y="21.994" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1943,6 +1927,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.5" y="25.5" size="0.8128" layer="27"/>
 </element>
 <element name="U$1" library="RaspberryPi" package="RPI_ZERO" value="RPI_ZERO" x="45" y="47" smashed="yes" rot="MR0"/>
+<element name="U$5" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-5.5" smashed="yes"/>
+<element name="U$6" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-12" smashed="yes"/>
+<element name="U$7" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-18.5" smashed="yes"/>
+<element name="U$8" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-25" smashed="yes"/>
+<element name="U$9" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-31.5" smashed="yes"/>
+<element name="U$10" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-38" smashed="yes"/>
+<element name="U$11" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-44.5" smashed="yes"/>
+<element name="U$12" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-51" smashed="yes"/>
+<element name="U$13" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-57.5" smashed="yes"/>
+<element name="U$14" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-64" smashed="yes"/>
+<element name="U$15" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-70.5" smashed="yes"/>
+<element name="U$16" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-77" smashed="yes"/>
+<element name="U$17" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="3.5" y="-83.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="LEDK">
@@ -2009,6 +2006,51 @@ design rules under a new name.</description>
 <vertex x="92" y="57"/>
 <vertex x="-2" y="57"/>
 </polygon>
+<contactref element="U$5" pad="P$1"/>
+<contactref element="U$12" pad="P$1"/>
+<contactref element="U$11" pad="P$1"/>
+<contactref element="U$10" pad="P$1"/>
+<contactref element="U$9" pad="P$1"/>
+<contactref element="U$8" pad="P$1"/>
+<contactref element="U$6" pad="P$1"/>
+<contactref element="U$7" pad="P$1"/>
+<contactref element="U$13" pad="P$1"/>
+<contactref element="U$17" pad="P$1"/>
+<contactref element="U$16" pad="P$1"/>
+<contactref element="U$15" pad="P$1"/>
+<contactref element="U$14" pad="P$1"/>
+<wire x1="64.05" y1="48.27" x2="62.66" y2="52.5" width="0" layer="19" extent="1-1"/>
+<wire x1="58.97" y1="45.73" x2="64.05" y2="48.27" width="0" layer="19" extent="1-1"/>
+<wire x1="53.89" y1="48.27" x2="58.97" y2="45.73" width="0" layer="19" extent="1-1"/>
+<wire x1="46.27" y1="48.27" x2="53.89" y2="48.27" width="0" layer="19" extent="1-1"/>
+<wire x1="38.65" y1="45.73" x2="46.27" y2="48.27" width="0" layer="19" extent="1-1"/>
+<wire x1="33.57" y1="48.27" x2="38.65" y2="45.73" width="0" layer="19" extent="1-1"/>
+<wire x1="28.49" y1="48.27" x2="33.57" y2="48.27" width="0" layer="19" extent="1-1"/>
+<wire x1="37.16" y1="52.5" x2="33.57" y2="48.27" width="0" layer="19" extent="1-1"/>
+<wire x1="20.87" y1="45.73" x2="28.49" y2="48.27" width="0" layer="19" extent="1-1"/>
+<wire x1="22.05" y1="36.5" x2="20.87" y2="45.73" width="0" layer="19" extent="1-1"/>
+<wire x1="28" y1="36.5" x2="22.05" y2="36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="30.55" y1="36.5" x2="28" y2="36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="37" y1="36.5" x2="30.55" y2="36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="42.75" y1="30.75" x2="37" y2="36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="42.77" y1="17.25" x2="42.75" y2="30.75" width="0" layer="19" extent="1-1"/>
+<wire x1="42.77" y1="16.6" x2="42.77" y2="17.25" width="0" layer="19" extent="1-1"/>
+<wire x1="47.17" y1="16.6" x2="42.77" y2="16.6" width="0" layer="19" extent="1-1"/>
+<wire x1="71.96" y1="16.54" x2="47.17" y2="16.6" width="0" layer="19" extent="1-16"/>
+<wire x1="19" y1="5.5" x2="42.77" y2="16.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-3.25" x2="19" y2="5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-9.75" x2="-1.05" y2="-3.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-16.25" x2="-1.05" y2="-9.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-22.75" x2="-1.05" y2="-16.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-29.25" x2="-1.05" y2="-22.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-35.75" x2="-1.05" y2="-29.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-42.25" x2="-1.05" y2="-35.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-48.75" x2="-1.05" y2="-42.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-55.25" x2="-1.05" y2="-48.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-61.75" x2="-1.05" y2="-55.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-68.25" x2="-1.05" y2="-61.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-74.75" x2="-1.05" y2="-68.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.05" y1="-81.25" x2="-1.05" y2="-74.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
@@ -2039,68 +2081,64 @@ design rules under a new name.</description>
 <wire x1="28.49" y1="45.73" x2="25" y2="39.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B">
-<contactref element="B" pad="P$3"/>
 <contactref element="U$1" pad="5"/>
-<wire x1="14.5296" y1="38.5024" x2="64.05" y2="45.73" width="0" layer="19" extent="1-1"/>
+<contactref element="U$7" pad="P$3"/>
+<wire x1="-0.95" y1="-20.75" x2="64.05" y2="45.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X">
-<contactref element="X" pad="P$3"/>
 <contactref element="U$1" pad="7"/>
-<wire x1="6.0296" y1="30.0024" x2="61.51" y2="45.73" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="P$3"/>
+<wire x1="-0.95" y1="-14.25" x2="61.51" y2="45.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Y">
-<contactref element="Y" pad="P$3"/>
 <contactref element="U$1" pad="29"/>
-<wire x1="48.0024" y1="12.4704" x2="33.57" y2="45.73" width="0" layer="19" extent="1-1"/>
+<contactref element="U$8" pad="P$3"/>
+<wire x1="-0.95" y1="-27.25" x2="33.57" y2="45.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UP">
-<contactref element="UP" pad="P$3"/>
 <contactref element="U$1" pad="31"/>
-<wire x1="31.03" y1="45.73" x2="71.0296" y2="21.5024" width="0" layer="19" extent="1-1"/>
+<contactref element="U$9" pad="P$3"/>
+<wire x1="-0.95" y1="-33.75" x2="31.03" y2="45.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L">
-<contactref element="L" pad="P$3"/>
-<contactref element="L" pad="P$4"/>
 <contactref element="U$1" pad="26"/>
-<wire x1="15.75" y1="52.5" x2="38.65" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="8.75" y1="52.5" x2="15.75" y2="52.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$13" pad="P$3"/>
+<wire x1="-0.95" y1="-59.75" x2="38.65" y2="48.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DOWN">
-<contactref element="DOWN" pad="P$3"/>
 <contactref element="U$1" pad="8"/>
-<wire x1="58.5024" y1="12.4704" x2="61.51" y2="48.27" width="0" layer="19" extent="1-1"/>
+<contactref element="U$10" pad="P$3"/>
+<wire x1="-0.95" y1="-40.25" x2="61.51" y2="48.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R">
-<contactref element="R" pad="P$3"/>
-<contactref element="R" pad="P$4"/>
 <contactref element="U$1" pad="10"/>
-<wire x1="73.75" y1="52.5" x2="80.75" y2="52.5" width="0" layer="19" extent="1-1"/>
-<wire x1="58.97" y1="48.27" x2="73.75" y2="52.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$14" pad="P$3"/>
+<wire x1="-0.95" y1="-66.25" x2="58.97" y2="48.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEFT">
-<contactref element="LEFT" pad="P$3"/>
 <contactref element="U$1" pad="36"/>
-<wire x1="25.95" y1="48.27" x2="62.5296" y2="30.0024" width="0" layer="19" extent="1-1"/>
+<contactref element="U$11" pad="P$3"/>
+<wire x1="-0.95" y1="-46.75" x2="25.95" y2="48.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RIGHT">
-<contactref element="RIGHT" pad="P$3"/>
 <contactref element="U$1" pad="11"/>
-<wire x1="56.43" y1="45.73" x2="79.5296" y2="30.0024" width="0" layer="19" extent="1-1"/>
+<contactref element="U$12" pad="P$3"/>
+<wire x1="-0.95" y1="-53.25" x2="56.43" y2="45.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="START">
-<contactref element="START" pad="P$3"/>
 <contactref element="U$1" pad="37"/>
-<wire x1="23.41" y1="45.73" x2="71.0296" y2="38.5024" width="0" layer="19" extent="1-1"/>
+<contactref element="U$15" pad="P$3"/>
+<wire x1="23.41" y1="45.73" x2="-0.95" y2="-72.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SELECT">
-<contactref element="SELECT" pad="P$3"/>
 <contactref element="U$1" pad="38"/>
-<wire x1="38.0024" y1="12.4704" x2="23.41" y2="48.27" width="0" layer="19" extent="1-1"/>
+<contactref element="U$16" pad="P$3"/>
+<wire x1="23.41" y1="48.27" x2="-0.95" y2="-79.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A">
-<contactref element="A" pad="P$3"/>
 <contactref element="U$1" pad="3"/>
-<wire x1="23.0296" y1="30.0024" x2="66.59" y2="45.73" width="0" layer="19" extent="1-1"/>
+<contactref element="U$5" pad="P$3"/>
+<wire x1="-0.95" y1="-7.75" x2="66.59" y2="45.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C3" pad="2"/>
@@ -2172,8 +2210,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="HOME">
 <contactref element="U$1" pad="40"/>
-<contactref element="RESET" pad="P$3"/>
-<wire x1="14.5296" y1="21.5024" x2="20.87" y2="48.27" width="0" layer="19" extent="1-1"/>
+<contactref element="U$17" pad="P$3"/>
+<wire x1="20.87" y1="48.27" x2="-0.95" y2="-85.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="U$1" pad="19"/>
@@ -2192,38 +2230,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="3V3">
 <contactref element="U$1" pad="1"/>
-</signal>
-<signal name="N$18">
-<contactref element="X" pad="P$1"/>
-<contactref element="A" pad="P$2"/>
-<contactref element="Y" pad="P$1"/>
-<contactref element="B" pad="P$2"/>
-<contactref element="DOWN" pad="P$1"/>
-<contactref element="UP" pad="P$2"/>
-<contactref element="RIGHT" pad="P$1"/>
-<contactref element="LEFT" pad="P$2"/>
-<wire x1="75.5" y1="21.5024" x2="84" y2="23.5" width="0" layer="19" extent="1-1"/>
-<wire x1="67" y1="30.0024" x2="75.5" y2="21.5024" width="0" layer="19" extent="1-1"/>
-<wire x1="52" y1="8" x2="67" y2="30.0024" width="0" layer="19" extent="1-1"/>
-<wire x1="41.5" y1="8" x2="52" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="27.5" y1="30.0024" x2="41.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="38.5024" x2="27.5" y2="30.0024" width="0" layer="19" extent="1-1"/>
-<wire x1="10.5" y1="23.5" x2="19" y2="38.5024" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$19">
-<contactref element="SELECT" pad="P$1"/>
-<contactref element="START" pad="P$2"/>
-<contactref element="R" pad="P$1"/>
-<contactref element="R" pad="P$2"/>
-<contactref element="RESET" pad="P$2"/>
-<contactref element="L" pad="P$1"/>
-<contactref element="L" pad="P$2"/>
-<wire x1="75" y1="50" x2="79.5" y2="50" width="0" layer="19" extent="1-1"/>
-<wire x1="75.5" y1="38.5024" x2="75" y2="50" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="8" x2="75.5" y2="38.5024" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="21.5024" x2="31.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="14.5" y1="50" x2="19" y2="21.5024" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="50" x2="14.5" y2="50" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

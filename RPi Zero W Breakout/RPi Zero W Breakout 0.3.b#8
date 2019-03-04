@@ -1887,8 +1887,8 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="4.292" y="-14.06" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.993" y="-4.662" size="1.27" layer="27"/>
 </element>
-<element name="U$3" library="M22-6340442" package="M22-6340442" value="M22-6340442" x="68.5" y="14" smashed="yes" rot="MR270">
-<attribute name="NAME" x="65.113334375" y="17.81" size="1.27" layer="26" rot="MR270"/>
+<element name="U$3" library="M22-6340442" package="M22-6340442" value="M22-6340442" x="70.5" y="14" smashed="yes" rot="MR270">
+<attribute name="NAME" x="67.113334375" y="17.81" size="1.27" layer="26" rot="MR270"/>
 </element>
 <element name="U$2" library="LM4810MM" package="NOPBCT-ND" value="LM4810MM/NOPBCT-ND" x="43.432" y="4.572" smashed="yes" rot="R270"/>
 <element name="RSPK" library="SP-1208" package="SP-1208" value="SP-1208" x="52.42" y="52.542" smashed="yes"/>
@@ -1972,7 +1972,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="4"/>
 <contactref element="U$3" pad="P4"/>
 <wire x1="67.336" y1="28.27" x2="70.13" y2="28.27" width="0" layer="19" extent="1-1"/>
-<wire x1="71.96" y1="16.54" x2="70.13" y2="28.27" width="0" layer="19" extent="16-16"/>
+<wire x1="73.96" y1="16.54" x2="70.13" y2="28.27" width="0" layer="19" extent="16-16"/>
 <wire x1="43.25" y1="30.75" x2="67.336" y2="28.27" width="0" layer="19" extent="1-1"/>
 <wire x1="45.602" y1="5.122" x2="43.25" y2="30.75" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2006,7 +2006,7 @@ design rules under a new name.</description>
 <wire x1="34.57" y1="28.27" x2="39.65" y2="25.73" width="0" layer="19" extent="1-1"/>
 <wire x1="29.49" y1="28.27" x2="34.57" y2="28.27" width="0" layer="19" extent="1-1"/>
 <wire x1="21.87" y1="25.73" x2="29.49" y2="28.27" width="0" layer="19" extent="1-1"/>
-<wire x1="69.96" y1="16.54" x2="65.05" y2="28.27" width="0" layer="19" extent="16-16"/>
+<wire x1="71.96" y1="16.54" x2="65.05" y2="28.27" width="0" layer="19" extent="16-16"/>
 <wire x1="18.588" y1="6.84" x2="21.87" y2="25.73" width="0" layer="19" extent="1-1"/>
 <wire x1="25.058" y1="-8.202" x2="18.588" y2="6.84" width="0" layer="19" extent="1-1"/>
 <wire x1="33.314" y1="-2.122" x2="25.058" y2="-8.202" width="0" layer="19" extent="1-1"/>

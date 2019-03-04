@@ -2109,13 +2109,15 @@ design rules under a new name.</description>
 <contactref element="START" pad="P$1"/>
 <contactref element="U$4" pad="P$1"/>
 <contactref element="U$5" pad="P$1"/>
+<wire x1="47.17" y1="18.1" x2="46.04" y2="18.1" width="0.2032" layer="1"/>
+<wire x1="46.04" y1="18.1" x2="45.72" y2="17.78" width="0.2032" layer="1"/>
+<via x="45.72" y="17.78" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C3" pad="1"/>
-<wire x1="33.95" y1="38.5" x2="33.95" y2="38.05" width="0.2032" layer="1"/>
 <polygon width="0.2032" layer="1">
 <vertex x="34.798" y="41.402"/>
 <vertex x="36.068" y="41.402"/>
@@ -2335,7 +2337,6 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="RF" pad="R1_2"/>
 <contactref element="U$2" pad="VO1"/>
-<contactref element="C6" pad="1"/>
 <wire x1="11.5" y1="12" x2="11.746" y2="12" width="0.2032" layer="1"/>
 <wire x1="11.746" y1="12" x2="14.986" y2="15.24" width="0.2032" layer="1"/>
 <wire x1="14.986" y1="15.24" x2="40.64" y2="15.24" width="0.2032" layer="1"/>
@@ -2347,9 +2348,12 @@ design rules under a new name.</description>
 <wire x1="43.846" y1="19.4" x2="44.45" y2="18.796" width="0.2032" layer="1"/>
 <wire x1="44.45" y1="18.796" x2="44.45" y2="17.78" width="0.2032" layer="1"/>
 <wire x1="45.466" y1="16.764" x2="44.45" y2="17.78" width="0.2032" layer="1"/>
-<wire x1="51.65" y1="19.5" x2="51.65" y2="17.614" width="0.2032" layer="1"/>
-<wire x1="51.65" y1="17.614" x2="50.8" y2="16.764" width="0.2032" layer="1"/>
+<wire x1="51.65" y1="17.614" x2="51.562" y2="17.526" width="0.2032" layer="1"/>
+<wire x1="51.562" y1="17.526" x2="50.8" y2="16.764" width="0.2032" layer="1"/>
 <wire x1="50.8" y1="16.764" x2="45.466" y2="16.764" width="0.2032" layer="1"/>
+<contactref element="C6" pad="1"/>
+<wire x1="51.562" y1="17.526" x2="51.65" y2="17.614" width="0.2032" layer="1"/>
+<wire x1="51.65" y1="17.614" x2="51.65" y2="19.5" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="RF" pad="R2_2"/>
