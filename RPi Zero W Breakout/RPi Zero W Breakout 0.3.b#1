@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -167,7 +167,7 @@
 <wire x1="65" y1="55" x2="65" y2="0" width="0.1524" layer="47"/>
 <wire x1="25" y1="55" x2="25" y2="0" width="0.1524" layer="47"/>
 <wire x1="90" y1="10" x2="0" y2="10" width="0.1524" layer="47"/>
-<wire x1="0" y1="45" x2="10" y2="45" width="0.1524" layer="47"/>
+<wire x1="0" y1="45" x2="90" y2="45" width="0.1524" layer="47"/>
 <hole x="10" y="45" drill="2.5"/>
 <hole x="7" y="7" drill="2.5"/>
 <hole x="80" y="10" drill="2.5"/>
@@ -184,9 +184,6 @@
 <text x="22" y="15" size="1.778" layer="27">DOWN</text>
 <text x="5" y="33" size="1.778" layer="27">LEFT</text>
 <text x="31" y="24.5" size="1.778" layer="27">RIGHT</text>
-<text x="59.5" y="3.5" size="1.778" layer="27">RPi ZeroW Breakout
-Rev 1 2019 Injoo Moon</text>
-<wire x1="10" y1="45" x2="90" y2="45" width="0.1524" layer="47"/>
 </plain>
 <libraries>
 <library name="con-hirose" urn="urn:adsk.eagle:library:152">
@@ -1643,25 +1640,6 @@ Metric Code Size 2012</description>
 <wire x1="0" y1="-2.25" x2="0" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="0" y1="2.25" x2="0" y2="1.75" width="0.127" layer="21"/>
 </package>
-<package name="SPST_TACTILESWITCH_TL3360CF185Q_BENTFRAME">
-<smd name="FRAME1" x="-3.65" y="-3.035" dx="1.46" dy="4.19" layer="1"/>
-<smd name="FRAME2" x="3.65" y="-3.035" dx="1.46" dy="4.19" layer="1"/>
-<smd name="P$1" x="-1.8725" y="-3.58" dx="1.205" dy="3.76" layer="1"/>
-<smd name="P$2" x="1.8725" y="-3.58" dx="1.205" dy="3.76" layer="1"/>
-<wire x1="-3.15" y1="-4.37" x2="-3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-4.37" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0" x2="1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0.35" x2="1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="0" x2="-1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="0.35" x2="-1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-4.37" x2="3.15" y2="-4.37" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="4" x2="1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0.35" x2="3.15" y2="0.35" width="0.127" layer="21"/>
-<wire x1="3.15" y1="0.35" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0.35" x2="-1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0.35" x2="-3.15" y2="0" width="0.127" layer="21"/>
-</package>
 </packages>
 </library>
 </libraries>
@@ -1961,7 +1939,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17" y="27" size="0.8128" layer="27"/>
 </element>
 <element name="U$1" library="RaspberryPi" package="RPI_ZERO" value="RPI_ZERO" x="45" y="47" smashed="yes" rot="MR0"/>
-<element name="A" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILE_SWITCH" x="81.5" y="27.5" smashed="yes" rot="R270"/>
+<element name="A" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="81.5" y="27.5" smashed="yes" rot="R270"/>
 <element name="X" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="72" y="37" smashed="yes" rot="R270"/>
 <element name="B" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="72" y="18" smashed="yes" rot="R270"/>
 <element name="Y" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="62.5" y="27.5" smashed="yes" rot="R270"/>
@@ -1969,15 +1947,11 @@ design rules under a new name.</description>
 <element name="DOWN" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="18" y="18" smashed="yes" rot="R270"/>
 <element name="LEFT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="8" y="27" smashed="yes" rot="R270"/>
 <element name="RIGHT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="27.5" y="27.5" smashed="yes" rot="R270"/>
-<element name="START" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILE_SWITCH" x="55" y="7" smashed="yes" rot="R270"/>
+<element name="L" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="13.5" y="63.5" smashed="yes"/>
+<element name="R" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="77" y="62" smashed="yes"/>
+<element name="START" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="55" y="7" smashed="yes" rot="R270"/>
 <element name="SELECT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="35" y="7" smashed="yes" rot="R270"/>
 <element name="HOME" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="45" y="7" smashed="yes" rot="R270"/>
-<element name="U$4" library="switches" package="SPST_TACTILESWITCH_TL3360CF185Q_BENTFRAME" value="SPST_TACTILE_SWITCHRIGHTANGLEBENT" x="77.5" y="54.5" smashed="yes">
-<attribute name="SPICEPREFIX" value="B" x="77.5" y="54.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="U$5" library="switches" package="SPST_TACTILESWITCH_TL3360CF185Q_BENTFRAME" value="SPST_TACTILE_SWITCHRIGHTANGLEBENT" x="12.5" y="54.5" smashed="yes">
-<attribute name="SPICEPREFIX" value="B" x="12.5" y="54.5" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="LEDK">
@@ -2052,43 +2026,11 @@ design rules under a new name.</description>
 <contactref element="Y" pad="P$1"/>
 <contactref element="X" pad="P$1"/>
 <contactref element="B" pad="P$1"/>
+<contactref element="L" pad="P$1"/>
 <contactref element="HOME" pad="P$1"/>
 <contactref element="SELECT" pad="P$1"/>
 <contactref element="START" pad="P$1"/>
-<contactref element="U$4" pad="P$1"/>
-<contactref element="U$5" pad="P$1"/>
-<wire x1="64.05" y1="48.27" x2="74.25" y2="41.55" width="0" layer="19" extent="1-1"/>
-<wire x1="62.66" y1="52.5" x2="64.05" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="58.97" y1="45.73" x2="64.05" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="53.89" y1="48.27" x2="58.97" y2="45.73" width="0" layer="19" extent="1-1"/>
-<wire x1="46.27" y1="48.27" x2="53.89" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="38.65" y1="45.73" x2="46.27" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="33.57" y1="48.27" x2="38.65" y2="45.73" width="0" layer="19" extent="1-1"/>
-<wire x1="28.49" y1="48.27" x2="33.57" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="37.16" y1="52.5" x2="33.57" y2="48.27" width="0" layer="19" extent="1-1"/>
-<wire x1="38.5" y1="38.5" x2="38.65" y2="45.73" width="0" layer="19" extent="1-1"/>
-<wire x1="32.05" y1="38.5" x2="38.5" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="29" y1="38.5" x2="32.05" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="23.05" y1="38.5" x2="29" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="41.55" x2="23.05" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.87" y1="45.73" x2="20.25" y2="41.55" width="0" layer="19" extent="1-1"/>
-<wire x1="29.75" y1="32.05" x2="29" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="42.75" y1="30.75" x2="38.5" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="42.77" y1="18.75" x2="42.75" y2="30.75" width="0" layer="19" extent="1-1"/>
-<wire x1="42.77" y1="18.1" x2="42.77" y2="18.75" width="0" layer="19" extent="1-1"/>
-<wire x1="47.17" y1="18.1" x2="42.77" y2="18.1" width="0" layer="19" extent="1-1"/>
-<wire x1="47.25" y1="11.55" x2="47.17" y2="18.1" width="0" layer="19" extent="1-1"/>
-<wire x1="37.25" y1="11.55" x2="42.77" y2="18.1" width="0" layer="19" extent="1-1"/>
-<wire x1="57.25" y1="11.55" x2="47.25" y2="11.55" width="0" layer="19" extent="1-1"/>
-<wire x1="83.75" y1="32.05" x2="74.25" y2="41.55" width="0" layer="19" extent="1-1"/>
-<wire x1="64.75" y1="32.05" x2="74.25" y2="41.55" width="0" layer="19" extent="1-1"/>
-<wire x1="74.25" y1="22.55" x2="83.75" y2="32.05" width="0" layer="19" extent="1-1"/>
-<wire x1="71.96" y1="16.54" x2="74.25" y2="22.55" width="0" layer="19" extent="1-16"/>
-<wire x1="20.25" y1="22.55" x2="29.75" y2="32.05" width="0" layer="19" extent="1-1"/>
-<wire x1="10.25" y1="31.55" x2="20.25" y2="22.55" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="5.5" x2="20.25" y2="22.55" width="0" layer="19" extent="1-1"/>
-<wire x1="75.6275" y1="50.92" x2="19" y2="5.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10.6275" y1="50.92" x2="75.6275" y2="50.92" width="0" layer="19" extent="1-1"/>
+<contactref element="R" pad="P$1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
@@ -2140,8 +2082,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="L">
 <contactref element="U$1" pad="26"/>
-<contactref element="U$4" pad="P$2"/>
-<wire x1="79.3725" y1="50.92" x2="38.65" y2="48.27" width="0" layer="19" extent="1-1"/>
+<contactref element="L" pad="P$3"/>
+<wire x1="9.05" y1="61.25" x2="38.65" y2="48.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DOWN">
 <contactref element="U$1" pad="8"/>
@@ -2150,8 +2092,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="R">
 <contactref element="U$1" pad="10"/>
-<contactref element="U$5" pad="P$2"/>
-<wire x1="14.3725" y1="50.92" x2="58.97" y2="48.27" width="0" layer="19" extent="1-1"/>
+<contactref element="R" pad="P$3"/>
+<wire x1="58.97" y1="48.27" x2="72.55" y2="59.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEFT">
 <contactref element="U$1" pad="36"/>
@@ -2280,10 +2222,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
