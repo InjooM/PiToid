@@ -172,6 +172,7 @@
 <hole x="10" y="10" drill="2.5"/>
 <hole x="80" y="10" drill="2.5"/>
 <hole x="80" y="45" drill="2.5"/>
+<dimension x1="72.46" y1="16.54" x2="80" y2="10" x3="79.563571875" y3="17.11329375" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="con-hirose" urn="urn:adsk.eagle:library:152">
