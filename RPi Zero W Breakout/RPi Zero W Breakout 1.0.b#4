@@ -3,7 +3,7 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mm" altunit="mm"/>
@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="58" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTE1ZjVj" projecturn="a.cGVyc29uYWw6dWUyYTE1ZjVjIzIwMTgwMzEyMTIyMzg5MTU2" f3durn="urn:adsk.wipprod:dm.lineage:8GlADW5VQgCeEe4qrNd0pQ" pcbguid="c3f44bcd-ccd5-49bc-a7e4-c41e590e7a0f" lastpulledtime="" lastsyncedchangeguid="d6f20d9c-501e-470b-6ab9-3bb1b800277e"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTE1ZjVj" projecturn="a.cGVyc29uYWw6dWUyYTE1ZjVjIzIwMTgwMzEyMTIyMzg5MTU2" f3durn="urn:adsk.wipprod:dm.lineage:8GlADW5VQgCeEe4qrNd0pQ" pcbguid="c3f44bcd-ccd5-49bc-a7e4-c41e590e7a0f" lastpulledtime="" lastsyncedchangeguid="ac0371d1-943d-9fd5-6c14-f01b0be15c11"/>
 <plain>
 <wire x1="10" y1="0" x2="80" y2="0" width="0.1524" layer="20"/>
 <wire x1="80" y1="0" x2="90" y2="10" width="0.1524" layer="20" curve="90"/>
@@ -168,8 +168,8 @@
 <wire x1="65" y1="55" x2="65" y2="0" width="0.1524" layer="47"/>
 <wire x1="25" y1="55" x2="25" y2="0" width="0.1524" layer="47"/>
 <wire x1="90" y1="10" x2="0" y2="10" width="0.1524" layer="47"/>
-<hole x="5" y="50" drill="2.5"/>
-<hole x="5" y="5" drill="2.5"/>
+<hole x="7" y="45" drill="2.5"/>
+<hole x="7" y="7" drill="2.5"/>
 <text x="3.5" y="24" size="1.778" layer="26" rot="MR0">Rf</text>
 <text x="85.5" y="24.5" size="1.778" layer="21">A</text>
 <text x="75.5" y="15" size="1.778" layer="21">B</text>
@@ -185,7 +185,7 @@
 <text x="41.466" y="38.044" size="1.778" layer="21">RPi ZeroW Breakout
 Rev 1 2019 Injoo Moon</text>
 <wire x1="0" y1="45" x2="90.254" y2="45" width="0.1524" layer="47"/>
-<text x="17" y="50" size="1.778" layer="21">L</text>
+<text x="6" y="50" size="1.778" layer="21">L</text>
 <text x="82" y="50" size="1.778" layer="21">R</text>
 </plain>
 <libraries>
@@ -1905,29 +1905,29 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="23.562" y="63.336" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.5" y="43" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="H1" library="M22-6340442" package="M22-6340442" value="M22-6340442" x="70.5" y="17" smashed="yes" rot="MR270">
-<attribute name="NAME" x="75" y="14" size="1.016" layer="26" rot="MR180"/>
+<element name="H1" library="M22-6340442" package="M22-6340442" value="M22-6340442" x="70.5" y="14" smashed="yes" rot="MR270">
+<attribute name="NAME" x="75" y="11" size="1.016" layer="26" rot="MR180"/>
 </element>
 <element name="U$2" library="LM4810MM" package="NOPBCT-ND" value="LM4810MM/NOPBCT-ND" x="45" y="19.5" smashed="yes" rot="R270"/>
 <element name="RSPK" library="SP-1208" package="SP-1208" value="SP-1208" x="52.5" y="52.5" smashed="yes"/>
 <element name="LSPK" library="SP-1208" package="SP-1208" value="SP-1208" x="27" y="52.5" smashed="yes"/>
-<element name="C5" library="SamacSys_Parts" package="UWT(8X10)" value="1000uF" x="71.568" y="8.276" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Nichicon 1000uF +/-20% 6.3 V 5101-4 SMD Metal Can Aluminium Electrolytic Capacitor" x="71.568" y="8.276" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="mm" x="71.568" y="8.276" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="71.568" y="8.276" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" x="71.568" y="8.276" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UWT0J102MNL1S" x="71.568" y="8.276" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="71.568" y="5.776" size="1.016" layer="26" rot="MR0" align="center"/>
-<attribute name="VALUE" x="71.568" y="11.276" size="1.016" layer="28" rot="MR0" align="center"/>
+<element name="C5" library="SamacSys_Parts" package="UWT(8X10)" value="1000uF" x="71.068" y="5.276" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Nichicon 1000uF +/-20% 6.3 V 5101-4 SMD Metal Can Aluminium Electrolytic Capacitor" x="71.068" y="5.276" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="71.068" y="5.276" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="71.068" y="5.276" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" x="71.068" y="5.276" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UWT0J102MNL1S" x="71.068" y="5.276" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="71.068" y="2.776" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="VALUE" x="71.068" y="8.276" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C6" library="SamacSys_Parts" package="UWT(8X10)" value="1000uF" x="83.432" y="11.594" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Nichicon 1000uF +/-20% 6.3 V 5101-4 SMD Metal Can Aluminium Electrolytic Capacitor" x="83.432" y="11.594" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="mm" x="83.432" y="11.594" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="83.432" y="11.594" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" x="83.432" y="11.594" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UWT0J102MNL1S" x="83.432" y="11.594" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="83.432" y="9.094" size="1.016" layer="26" rot="MR0" align="center"/>
-<attribute name="VALUE" x="83.432" y="14.094" size="1.016" layer="28" rot="MR0" align="center"/>
+<element name="C6" library="SamacSys_Parts" package="UWT(8X10)" value="1000uF" x="82.432" y="9.594" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Nichicon 1000uF +/-20% 6.3 V 5101-4 SMD Metal Can Aluminium Electrolytic Capacitor" x="82.432" y="9.594" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="82.432" y="9.594" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="82.432" y="9.594" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" x="82.432" y="9.594" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UWT0J102MNL1S" x="82.432" y="9.594" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="82.432" y="7.094" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="VALUE" x="82.432" y="12.094" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1.5uF" x="35.5" y="35.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.5" y="37.125" size="0.8128" layer="25" rot="R180"/>
@@ -2035,16 +2035,16 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="2"/>
 <contactref element="U$1" pad="4"/>
 <contactref element="H1" pad="P4"/>
-<wire x1="73.96" y1="19.54" x2="73.96" y2="20.258" width="0.3048" layer="16"/>
-<wire x1="73.96" y1="20.258" x2="73.152" y2="21.066" width="0.3048" layer="16"/>
-<via x="73.152" y="21.066" extent="1-16" drill="0.35"/>
-<wire x1="73.152" y1="21.066" x2="72.66" y2="21.066" width="0.3048" layer="1"/>
-<wire x1="72.66" y1="21.066" x2="72.644" y2="21.082" width="0.3048" layer="1"/>
+<wire x1="73.96" y1="16.54" x2="73.96" y2="19.258" width="0.3048" layer="16"/>
+<wire x1="73.96" y1="19.258" x2="73.152" y2="20.066" width="0.3048" layer="16"/>
+<via x="73.152" y="20.066" extent="1-16" drill="0.35"/>
+<wire x1="73.152" y1="20.066" x2="73.152" y2="20.574" width="0.3048" layer="1"/>
+<wire x1="73.152" y1="20.574" x2="72.644" y2="21.082" width="0.3048" layer="1"/>
 <wire x1="72.644" y1="21.082" x2="47.752" y2="21.082" width="0.3048" layer="1"/>
 <wire x1="47.17" y1="20.5" x2="47.17" y2="20.05" width="0.3048" layer="1"/>
 <wire x1="47.752" y1="21.082" x2="47.17" y2="20.5" width="0.3048" layer="1"/>
 <wire x1="66.336" y1="48.27" x2="69.13" y2="48.27" width="0.3048" layer="1"/>
-<wire x1="73.152" y1="21.066" x2="73.152" y2="43.688" width="0.3048" layer="16"/>
+<wire x1="73.152" y1="20.066" x2="73.152" y2="43.688" width="0.3048" layer="16"/>
 <wire x1="73.152" y1="43.688" x2="71.5308" y2="45.3092" width="0.3048" layer="16"/>
 <wire x1="71.5308" y1="45.3092" x2="71.5308" y2="47.5952" width="0.3048" layer="16"/>
 <wire x1="70.856" y1="48.27" x2="69.13" y2="48.27" width="0.3048" layer="16"/>
@@ -2335,7 +2335,10 @@ design rules under a new name.</description>
 <contactref element="RF" pad="R1_2"/>
 <contactref element="U$2" pad="VO1"/>
 <contactref element="C6" pad="1"/>
-<wire x1="44.704" y1="15.494" x2="45.466" y2="14.732" width="0.2032" layer="16"/>
+<wire x1="85.782" y1="9.594" x2="85.782" y2="14.04" width="0.2032" layer="16"/>
+<wire x1="85.782" y1="14.04" x2="85.09" y2="14.732" width="0.2032" layer="16"/>
+<wire x1="85.09" y1="14.732" x2="45.466" y2="14.732" width="0.2032" layer="16"/>
+<wire x1="45.466" y1="14.732" x2="44.704" y2="15.494" width="0.2032" layer="16"/>
 <via x="44.704" y="15.494" extent="1-16" drill="0.35"/>
 <wire x1="44.704" y1="15.494" x2="44.704" y2="18.542" width="0.2032" layer="1"/>
 <wire x1="43.846" y1="19.4" x2="42.77" y2="19.4" width="0.2032" layer="1"/>
@@ -2347,18 +2350,19 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="15.24" x2="44.45" y2="15.24" width="0.2032" layer="1"/>
 <wire x1="44.45" y1="15.24" x2="44.704" y2="15.494" width="0.2032" layer="1"/>
 <wire x1="12.454" y1="12.954" x2="13.716" y2="12.954" width="0.2032" layer="1"/>
-<wire x1="86.782" y1="11.594" x2="85.168" y2="13.208" width="0.2032" layer="16"/>
-<wire x1="66.294" y1="11.9496" x2="75.7036" y2="11.9496" width="0.2032" layer="16"/>
-<wire x1="76.962" y1="13.208" x2="75.7036" y2="11.9496" width="0.2032" layer="16"/>
-<wire x1="85.168" y1="13.208" x2="76.962" y2="13.208" width="0.2032" layer="16"/>
-<wire x1="45.466" y1="14.732" x2="63.5116" y2="14.732" width="0.2032" layer="16"/>
-<wire x1="63.5116" y1="14.732" x2="66.294" y2="11.9496" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="RF" pad="R2_2"/>
 <contactref element="U$2" pad="VO2"/>
 <contactref element="C5" pad="1"/>
-<wire x1="60.198" y1="10.922" x2="60.198" y2="18.542" width="0.2032" layer="1"/>
+<wire x1="74.418" y1="5.276" x2="71.432" y2="5.276" width="0.2032" layer="16"/>
+<wire x1="71.432" y1="5.276" x2="71.12" y2="5.588" width="0.2032" layer="16"/>
+<via x="71.12" y="5.588" extent="1-16" drill="0.35"/>
+<wire x1="71.12" y1="5.588" x2="71.12" y2="7.62" width="0.2032" layer="1"/>
+<wire x1="71.12" y1="7.62" x2="70.612" y2="8.128" width="0.2032" layer="1"/>
+<wire x1="70.612" y1="8.128" x2="60.96" y2="8.128" width="0.2032" layer="1"/>
+<wire x1="60.96" y1="8.128" x2="60.198" y2="8.89" width="0.2032" layer="1"/>
+<wire x1="60.198" y1="8.89" x2="60.198" y2="18.542" width="0.2032" layer="1"/>
 <wire x1="59.34" y1="19.4" x2="47.17" y2="19.4" width="0.2032" layer="1"/>
 <wire x1="60.198" y1="18.542" x2="59.34" y2="19.4" width="0.2032" layer="1"/>
 <wire x1="11.5" y1="14" x2="12.038" y2="13.462" width="0.2032" layer="1"/>
@@ -2375,11 +2379,6 @@ design rules under a new name.</description>
 <wire x1="47.17" y1="19.4" x2="45.878" y2="19.4" width="0.2032" layer="1"/>
 <wire x1="45.878" y1="19.4" x2="45.466" y2="19.812" width="0.2032" layer="1"/>
 <wire x1="45.466" y1="19.812" x2="45.466" y2="20.32" width="0.2032" layer="1"/>
-<wire x1="74.918" y1="8.276" x2="73.034" y2="10.16" width="0.2032" layer="16"/>
-<wire x1="73.034" y1="10.16" x2="72.39" y2="10.16" width="0.2032" layer="16"/>
-<via x="72.39" y="10.16" extent="1-16" drill="0.35"/>
-<wire x1="72.39" y1="10.16" x2="60.96" y2="10.16" width="0.2032" layer="1"/>
-<wire x1="60.96" y1="10.16" x2="60.198" y2="10.922" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="C6" pad="2"/>
@@ -2389,10 +2388,10 @@ design rules under a new name.</description>
 <wire x1="24.638" y1="7.874" x2="25.4" y2="7.874" width="0.2032" layer="16"/>
 <wire x1="25.4" y1="7.874" x2="27.432" y2="5.842" width="0.2032" layer="16"/>
 <wire x1="63.754" y1="5.842" x2="27.432" y2="5.842" width="0.2032" layer="16"/>
+<wire x1="79.082" y1="9.594" x2="79.082" y2="7.2" width="0.2032" layer="16"/>
+<wire x1="79.082" y1="7.2" x2="78.74" y2="6.858" width="0.2032" layer="16"/>
+<wire x1="78.74" y1="6.858" x2="64.77" y2="6.858" width="0.2032" layer="16"/>
 <wire x1="64.77" y1="6.858" x2="63.754" y2="5.842" width="0.2032" layer="16"/>
-<wire x1="80.082" y1="11.594" x2="66.204" y2="11.594" width="0.2032" layer="16"/>
-<wire x1="66.204" y1="11.594" x2="64.77" y2="10.16" width="0.2032" layer="16"/>
-<wire x1="64.77" y1="10.16" x2="64.77" y2="6.858" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="J1" pad="2"/>
@@ -2400,14 +2399,8 @@ design rules under a new name.</description>
 <wire x1="14" y1="10.5" x2="14" y2="8.606" width="0.2032" layer="16"/>
 <wire x1="14" y1="8.606" x2="15.24" y2="7.366" width="0.2032" layer="16"/>
 <wire x1="25.146" y1="7.366" x2="15.24" y2="7.366" width="0.2032" layer="16"/>
-<wire x1="68.218" y1="8.276" x2="65.68" y2="8.276" width="0.2032" layer="16"/>
-<wire x1="65.68" y1="8.276" x2="65.278" y2="7.874" width="0.2032" layer="16"/>
-<wire x1="65.278" y1="7.874" x2="65.278" y2="6.604" width="0.2032" layer="16"/>
-<wire x1="65.278" y1="6.604" x2="64.008" y2="5.334" width="0.2032" layer="16"/>
-<wire x1="64.008" y1="5.334" x2="27.432" y2="5.334" width="0.2032" layer="16"/>
-<wire x1="27.432" y1="5.334" x2="27.294" y2="5.334" width="0.2032" layer="16"/>
-<wire x1="27.294" y1="5.334" x2="27.178" y2="5.334" width="0.2032" layer="16"/>
-<wire x1="27.178" y1="5.334" x2="25.146" y2="7.366" width="0.2032" layer="16"/>
+<wire x1="67.718" y1="5.276" x2="27.236" y2="5.276" width="0.2032" layer="16"/>
+<wire x1="27.236" y1="5.276" x2="25.146" y2="7.366" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="J1" pad="10"/>

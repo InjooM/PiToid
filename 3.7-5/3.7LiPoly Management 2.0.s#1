@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9268,118 +9268,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switches">
-<packages>
-<package name="SPST_TACTILESWITCH_TL3301PF160QG">
-<smd name="P$1" x="-4.55" y="2.25" dx="2.1" dy="1.4" layer="1"/>
-<smd name="P$2" x="4.55" y="2.25" dx="2.1" dy="1.4" layer="1"/>
-<smd name="P$3" x="-4.45" y="-2.25" dx="2.1" dy="1.4" layer="1"/>
-<smd name="P$4" x="4.45" y="-2.25" dx="2.1" dy="1.4" layer="1"/>
-<wire x1="-3" y1="3" x2="-2.25" y2="3" width="0.127" layer="21"/>
-<wire x1="2.25" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="3" y1="2.25" x2="3" y2="3" width="0.127" layer="21"/>
-<wire x1="-3" y1="-3" x2="-2.25" y2="-3" width="0.127" layer="21"/>
-<wire x1="2.25" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3" y1="-3" x2="-3" y2="-2.25" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.25" x2="-3" y2="3" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="-2.25" x2="0" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.25" x2="2.25" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="2.25" x2="0" y2="2.25" width="0.127" layer="21"/>
-<wire x1="0" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.25" x2="0" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="0" y1="2.25" x2="0" y2="1.75" width="0.127" layer="21"/>
-</package>
-<package name="SPST_TACTILESWITCH_TL3360CF185Q">
-<smd name="FRAME1" x="-3.65" y="-3.035" dx="1.46" dy="4.19" layer="1"/>
-<smd name="FRAME3" x="3.65" y="-3.035" dx="1.46" dy="4.19" layer="1"/>
-<smd name="P$1" x="-1.8725" y="-3.58" dx="1.205" dy="3.76" layer="1"/>
-<smd name="P$2" x="1.8725" y="-3.58" dx="1.205" dy="3.76" layer="1"/>
-<wire x1="-3.15" y1="-4.37" x2="-3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-4.37" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0" x2="1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0.35" x2="1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="0" x2="-1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="0.35" x2="-1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-4.37" x2="3.15" y2="-4.37" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="4" x2="1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0.35" x2="3.15" y2="0.35" width="0.127" layer="21"/>
-<wire x1="3.15" y1="0.35" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0.35" x2="-1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0.35" x2="-3.15" y2="0" width="0.127" layer="21"/>
-<smd name="FRAME2" x="0" y="1" dx="5.33" dy="2.79" layer="1"/>
-</package>
-<package name="SPST_TACTILESWITCH_TL3360CF185Q_BENTFRAME">
-<smd name="FRAME1" x="-3.65" y="-3.035" dx="1.46" dy="4.19" layer="1"/>
-<smd name="FRAME2" x="3.65" y="-3.035" dx="1.46" dy="4.19" layer="1"/>
-<smd name="P$1" x="-1.8725" y="-3.58" dx="1.205" dy="3.76" layer="1"/>
-<smd name="P$2" x="1.8725" y="-3.58" dx="1.205" dy="3.76" layer="1"/>
-<wire x1="-3.15" y1="-4.37" x2="-3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-4.37" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0" x2="1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0.35" x2="1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="0" x2="-1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="0.35" x2="-1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-4.37" x2="3.15" y2="-4.37" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="4" x2="1.775" y2="4" width="0.127" layer="21"/>
-<wire x1="1.775" y1="0.35" x2="3.15" y2="0.35" width="0.127" layer="21"/>
-<wire x1="3.15" y1="0.35" x2="3.15" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0.35" x2="-1.775" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="0.35" x2="-3.15" y2="0" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SPST">
-<description>Single Pole Single Throw Switch</description>
-<pin name="P$1" x="-7.62" y="0" visible="off" length="middle"/>
-<pin name="P$2" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
-<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">P2</text>
-<text x="-5.08" y="0" size="1.778" layer="95">P1</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPST_TACTILE_SWITCH">
-<description>SMD SPST Tactile Switch</description>
-<gates>
-<gate name="G$1" symbol="SPST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPST_TACTILESWITCH_TL3301PF160QG">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="RIGHTANGLE" package="SPST_TACTILESWITCH_TL3360CF185Q">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="RIGHTANGLEBENT" package="SPST_TACTILESWITCH_TL3360CF185Q_BENTFRAME">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9459,9 +9347,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="DONE" library="KingBright" deviceset="WP934AD" device="" value="GREEN"/>
 <part name="LBO" library="KingBright" deviceset="WP934AD" device="" value="RED"/>
 <part name="POWERON" library="KingBright" deviceset="WP934EW" device="" value="BLUE"/>
-<part name="U$1" library="switches" deviceset="SPST_TACTILE_SWITCH" device="RIGHTANGLEBENT"/>
-<part name="U$3" library="switches" deviceset="SPST_TACTILE_SWITCH" device="RIGHTANGLEBENT"/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9683,11 +9568,6 @@ Position B: EN floats and VOUT is enabled</text>
 <instance part="DONE" gate="G$1" x="114.3" y="167.64" smashed="yes" rot="R270"/>
 <instance part="LBO" gate="G$1" x="215.9" y="17.78" smashed="yes" rot="R270"/>
 <instance part="POWERON" gate="G$1" x="165.1" y="71.12" smashed="yes"/>
-<instance part="U$1" gate="G$1" x="289.56" y="40.64" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="289.56" y="33.02" smashed="yes"/>
-<instance part="GND20" gate="1" x="299.72" y="27.94" smashed="yes">
-<attribute name="VALUE" x="297.18" y="25.4" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -9854,16 +9734,6 @@ Position B: EN floats and VOUT is enabled</text>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="H1" gate="A" pin="P2"/>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="297.18" y1="33.02" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="33.02" x2="299.72" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="297.18" y1="40.64" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="40.64" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
-<junction x="299.72" y="33.02"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10176,24 +10046,6 @@ Position B: EN floats and VOUT is enabled</text>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="DONE" gate="G$1" pin="CAT"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<pinref part="H1" gate="A" pin="P4"/>
-<wire x1="281.94" y1="40.64" x2="276.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="40.64" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="281.94" y1="33.02" x2="276.86" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="33.02" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="H1" gate="A" pin="P3"/>
-<wire x1="276.86" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="38.1" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

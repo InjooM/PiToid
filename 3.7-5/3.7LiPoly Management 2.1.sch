@@ -9683,10 +9683,10 @@ Position B: EN floats and VOUT is enabled</text>
 <instance part="DONE" gate="G$1" x="114.3" y="167.64" smashed="yes" rot="R270"/>
 <instance part="LBO" gate="G$1" x="215.9" y="17.78" smashed="yes" rot="R270"/>
 <instance part="POWERON" gate="G$1" x="165.1" y="71.12" smashed="yes"/>
-<instance part="U$1" gate="G$1" x="289.56" y="40.64" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="289.56" y="33.02" smashed="yes"/>
-<instance part="GND20" gate="1" x="299.72" y="27.94" smashed="yes">
-<attribute name="VALUE" x="297.18" y="25.4" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$1" x="289.56" y="33.02" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="289.56" y="40.64" smashed="yes"/>
+<instance part="GND20" gate="1" x="297.18" y="27.94" smashed="yes">
+<attribute name="VALUE" x="294.64" y="25.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9856,14 +9856,12 @@ Position B: EN floats and VOUT is enabled</text>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="297.18" y1="33.02" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="33.02" x2="299.72" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="297.18" y1="40.64" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="40.64" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
-<junction x="299.72" y="33.02"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<wire x1="297.18" y1="33.02" x2="297.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="33.02" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
+<junction x="297.18" y="33.02"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10180,7 +10178,7 @@ Position B: EN floats and VOUT is enabled</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
 <pinref part="H1" gate="A" pin="P4"/>
 <wire x1="281.94" y1="40.64" x2="276.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="40.64" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
@@ -10188,12 +10186,12 @@ Position B: EN floats and VOUT is enabled</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="281.94" y1="33.02" x2="276.86" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="33.02" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="H1" gate="A" pin="P3"/>
-<wire x1="276.86" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="38.1" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="45.72" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="38.1" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="276.86" y1="38.1" x2="276.86" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="33.02" x2="281.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

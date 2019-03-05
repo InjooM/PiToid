@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="2.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="2.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -165,8 +165,9 @@
 <wire x1="25" y1="10" x2="0" y2="10" width="0.1524" layer="47"/>
 <wire x1="25" y1="45" x2="0" y2="45" width="0.1524" layer="47"/>
 <wire x1="14.986" y1="0" x2="14.986" y2="9.906" width="0.1524" layer="47"/>
-<text x="23.622" y="7.874" size="1.016" layer="26" rot="MR0">3.7-5V LiPoly Management
+<text x="23.622" y="11.874" size="1.016" layer="26" rot="MR0">3.7-5V LiPoly Management
 Rev 2 2019 Injoo Moon</text>
+<hole x="15" y="10" drill="2.5"/>
 </plain>
 <libraries>
 <library name="DX4R005HJ5R2000">
@@ -2404,9 +2405,7 @@ design rules under a new name.</description>
 <wire x1="11.176" y1="32.832" x2="12.004" y2="32.004" width="0.1524" layer="1"/>
 <wire x1="12.004" y1="32.004" x2="12.7" y2="32.004" width="0.1524" layer="1"/>
 <via x="12.7" y="32.004" extent="1-16" drill="0.35"/>
-<wire x1="12.7" y1="32.004" x2="12.7" y2="7.62" width="0.1524" layer="16"/>
-<wire x1="12.7" y1="7.62" x2="11.176" y2="6.096" width="0.1524" layer="16"/>
-<wire x1="11.176" y1="6.096" x2="8.89" y2="6.096" width="0.1524" layer="16"/>
+<wire x1="12.7" y1="11.12" x2="12.7" y2="32.004" width="0.1524" layer="16"/>
 <via x="8.89" y="6.096" extent="1-16" drill="0.35"/>
 <wire x1="8.89" y1="6.096" x2="7.6835" y2="4.8895" width="0.1524" layer="1"/>
 <wire x1="7.6835" y1="4.8895" x2="7.6835" y2="3.7973" width="0.1524" layer="1"/>
@@ -2426,6 +2425,10 @@ design rules under a new name.</description>
 <wire x1="1.524" y1="37.084" x2="1.78281875" y2="37.34281875" width="0.2032" layer="16"/>
 <wire x1="1.78281875" y1="37.34281875" x2="2.4284875" y2="37.34281875" width="0.2032" layer="16"/>
 <wire x1="2.43330625" y1="37.338" x2="9.144" y2="37.338" width="0.2032" layer="16"/>
+<wire x1="8.89" y1="6.096" x2="11.596" y2="6.096" width="0.1524" layer="16"/>
+<wire x1="11.596" y1="6.096" x2="12" y2="6.5" width="0.1524" layer="16"/>
+<wire x1="12" y1="6.5" x2="12" y2="10.42" width="0.1524" layer="16"/>
+<wire x1="12" y1="10.42" x2="12.7" y2="11.12" width="0.1524" layer="16"/>
 </signal>
 <signal name="VOUT">
 <contactref element="U1" pad="15"/>
