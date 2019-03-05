@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="58" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTE1ZjVj" projecturn="a.cGVyc29uYWw6dWUyYTE1ZjVjIzIwMTgwMzEyMTIyMzg5MTU2" f3durn="urn:adsk.wipprod:dm.lineage:8GlADW5VQgCeEe4qrNd0pQ" pcbguid="c3f44bcd-ccd5-49bc-a7e4-c41e590e7a0f" lastpulledtime="" lastsyncedchangeguid="d2f9b755-9db7-3121-13a0-9cdf266c8a87"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTE1ZjVj" projecturn="a.cGVyc29uYWw6dWUyYTE1ZjVjIzIwMTgwMzEyMTIyMzg5MTU2" f3durn="urn:adsk.wipprod:dm.lineage:8GlADW5VQgCeEe4qrNd0pQ" pcbguid="c3f44bcd-ccd5-49bc-a7e4-c41e590e7a0f" lastpulledtime="" lastsyncedchangeguid="5e02eddf-53c3-88de-053d-a21566df4985"/>
 <plain>
 <wire x1="10" y1="0" x2="80" y2="0" width="0.1524" layer="20"/>
 <wire x1="80" y1="0" x2="90" y2="10" width="0.1524" layer="20" curve="90"/>
@@ -1946,7 +1946,7 @@ design rules under a new name.</description>
 <element name="Y" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="62.5" y="27.5" smashed="yes" rot="R270"/>
 <element name="UP" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="18" y="37" smashed="yes" rot="R270"/>
 <element name="DOWN" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="18" y="18" smashed="yes" rot="R270"/>
-<element name="LEFT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="8.5" y="27.5" smashed="yes" rot="R270"/>
+<element name="LEFT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="8" y="27" smashed="yes" rot="R270"/>
 <element name="RIGHT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="27.5" y="27.5" smashed="yes" rot="R270"/>
 <element name="START" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILE_SWITCH" x="55" y="7" smashed="yes" rot="R270"/>
 <element name="SELECT" library="switches" package="SPST_TACTILESWITCH_TL3301PF160QG" value="SPST_TACTILESWITCH_TL3301PF160QG" x="35" y="7" smashed="yes" rot="R270"/>
@@ -2223,12 +2223,14 @@ design rules under a new name.</description>
 <contactref element="LEFT" pad="P$3"/>
 <wire x1="25.95" y1="48.27" x2="24.69" y2="49.53" width="0.2032" layer="1"/>
 <wire x1="19.558" y1="44.45" x2="17.9624" y2="42.8544" width="0.2032" layer="1"/>
+<wire x1="14.9144" y1="42.8544" x2="17.9624" y2="42.8544" width="0.2032" layer="1"/>
 <wire x1="24.69" y1="49.53" x2="20.066" y2="49.53" width="0.2032" layer="1"/>
 <wire x1="20.066" y1="49.53" x2="19.558" y2="49.022" width="0.2032" layer="1"/>
 <wire x1="19.558" y1="49.022" x2="19.558" y2="44.45" width="0.2032" layer="1"/>
-<wire x1="6.25" y1="41.556" x2="6.25" y2="31.95" width="0.2032" layer="1"/>
-<wire x1="7.5484" y1="42.8544" x2="6.25" y2="41.556" width="0.2032" layer="1"/>
-<wire x1="17.9624" y1="42.8544" x2="7.5484" y2="42.8544" width="0.2032" layer="1"/>
+<wire x1="5.75" y1="31.45" x2="5.75" y2="41.31" width="0.2032" layer="1"/>
+<wire x1="5.75" y1="41.31" x2="6.858" y2="42.418" width="0.2032" layer="1"/>
+<wire x1="6.858" y1="42.418" x2="14.478" y2="42.418" width="0.2032" layer="1"/>
+<wire x1="14.478" y1="42.418" x2="14.9144" y2="42.8544" width="0.2032" layer="1"/>
 </signal>
 <signal name="RIGHT">
 <contactref element="U$1" pad="11"/>
@@ -2297,11 +2299,11 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="RF" pad="R1_3"/>
 <contactref element="R8" pad="1"/>
-<wire x1="15.55" y1="24.694" x2="15.55" y2="26" width="0.2032" layer="1"/>
-<wire x1="11.5" y1="20" x2="12.634" y2="20" width="0.2032" layer="1"/>
-<wire x1="12.634" y1="20" x2="13.716" y2="21.082" width="0.2032" layer="1"/>
-<wire x1="13.716" y1="21.082" x2="13.716" y2="22.86" width="0.2032" layer="1"/>
-<wire x1="13.716" y1="22.86" x2="15.55" y2="24.694" width="0.2032" layer="1"/>
+<wire x1="15.55" y1="26" x2="15.55" y2="24.694" width="0.2032" layer="1"/>
+<wire x1="14.986" y1="24.13" x2="15.55" y2="24.694" width="0.2032" layer="1"/>
+<wire x1="11.5" y1="20" x2="11.5" y2="23.438" width="0.2032" layer="1"/>
+<wire x1="11.5" y1="23.438" x2="12.192" y2="24.13" width="0.2032" layer="1"/>
+<wire x1="12.192" y1="24.13" x2="14.986" y2="24.13" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="RF" pad="R1_2"/>
